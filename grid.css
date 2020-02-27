@@ -1,0 +1,56 @@
+body{
+    /* creating space in between boxes */
+    margin: 10px;
+    padding: 10px;
+    /* centering all text */
+    text-align: center;
+    /* chose to display eiher grid or area */
+    display: grid;
+     
+}
+.title{
+    background-color: grey;
+    margin: 10px;
+    padding: 10px;
+    border: aqua 2px solid;
+   /* specify colum and row */
+    grid-column: 1/4;
+    grid-row: 1;
+}
+.Nav{
+    background-color: green;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid green;
+     /* specify colum and row */
+    grid-column: 1;
+    grid-row: 2;
+}
+.photo1{
+    color: blanchedalmond;
+    background-color: black;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid green;
+     /* specify colum and row */
+    grid-column: 2;
+    grid-row: 2;
+}
+.photo2{
+    color: blanchedalmond;
+    background-color: black;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid green;
+     /* specify colum and row */
+    grid-column: 3;
+    grid-row:2 ;
+}
+.text{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid green;
+     /* specify colum and row */
+    grid-column: 2/4;
+    grid-row: 4;
+}
